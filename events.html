@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Love is Foundation multi-page website prototype." />
+  <title>Events | Love is Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a href="index.html" class="brand" aria-label="Love is Foundation home">
+      <img src="assets/lif-mark.svg" alt="" class="brand-mark" />
+      <span class="brand-wordmark"><span>Love</span><span>is</span><span>Foundation</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="">Home</a>
+<a href="about.html" class="">About</a>
+<a href="programs.html" class="">What We Offer</a>
+<a href="garden.html" class="">LiF Garden</a>
+<a href="community.html" class="">Community</a>
+<a href="resources.html" class="">Resources</a>
+<a href="events.html" class="active">Events</a>
+<a href="volunteer.html" class="">Volunteer</a>
+      <a href="contact.html" class="nav-cta ">Start Here</a>
+    </div>
+  </nav>
+</header>
+  <main id="main">
+    
+<section class="page-hero">
+  <div class="container page-hero-grid">
+    <div class="reveal">
+      <p class="eyebrow">Events</p>
+      <h1>Circles, meetings, workshops, and community gatherings.</h1>
+    </div>
+    <p class="page-lede reveal">For production, this can connect to WordPress events or Google Calendar. For now, it is static JavaScript, because apparently even prototypes need pretending.</p>
+  </div>
+</section>
+
+<section class="section events white-section">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div>
+        <p class="eyebrow">Upcoming</p>
+        <h2>Events and sessions</h2>
+      </div>
+      <button class="btn btn-secondary" id="showAllEvents">Show all</button>
+    </div>
+    <div class="event-list" id="eventList" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="section impact">
+  <div class="container impact-grid reveal">
+    <div>
+      <p class="eyebrow">Calendar integration</p>
+      <h2>Future improvement: sync from Google Calendar.</h2>
+    </div>
+    <div class="impact-stat"><strong>1</strong><span>Official source of truth for dates</span></div>
+    <div class="impact-stat"><strong>0</strong><span>Duplicate event updates, ideally</span></div>
+  </div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="footer-brand">
+        <img src="assets/lif-mark.svg" alt="" />
+        <strong>Love is Foundation</strong>
+      </a>
+      <p>A public website concept built around community, clarity, and co-creation.</p>
+    </div>
+    <div>
+      <strong>Explore</strong>
+      <a href="about.html">About</a>
+      <a href="programs.html">What We Offer</a>
+      <a href="garden.html">LiF Garden</a>
+    </div>
+    <div>
+      <strong>Community</strong>
+      <a href="community.html">Platform</a>
+      <a href="events.html">Events</a>
+      <a href="volunteer.html">Volunteer</a>
+    </div>
+    <div>
+      <strong>Support</strong>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Back home</a>
+    </div>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

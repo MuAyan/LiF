@@ -1,6 +1,6 @@
 # Love is Foundation Multi-Page Static Website Prototype
 
-This version expands the prototype into a multi-page website
+This version expands the prototype into a multi-page website.
 
 ## Pages
 
